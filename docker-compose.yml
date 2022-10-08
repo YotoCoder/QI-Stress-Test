@@ -1,0 +1,9 @@
+# https://hub.docker.com/r/williamyeh/wrk
+version: "3"
+
+services: 
+
+    wrk:
+        image: williamyeh/wrk:latest
+        container_name: wrk
+        #restart: always
